@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a=34;
+        console.log(a);
+        let b="string 34";
+        console.log(b);
+        const c=34;
+        console.log(c);
+        let d =2;
+        d=4+9;
+        console.log(d);
+        // numbers
+        // objects
+        // booleans (true or false)
+        // String
+        // undefined
+        // null
+        function hello(){
+            console.log("hello how are you")
+        }
+
+        let myobj={
+            a:14,
+            b:33,
+            myfunc : function minefunc(number) {
+                console.log("The number is "+number)
+                
+            }
+        }
+        document.addEventListener("click" , function click(){
+            console.log("clicked");
+            alert("hello")
+          
+            let conf = confirm("are you sure? ")
+            console.log(conf)
+        })
+        // for (let index = 0; index < array.length; index++) {
+        //     const element = array[index];
+            
+        // }
+
+        let arrew = [34, 53 , 22];
+        arrew.forEach(element => {
+            
+        });
+
+
+
+   
+           
+            let obj2 = {
+                minefunc2 :function (number) {
+                console.log("The number is " + this)
+                
+            },
+
+            minefunc3 : (number) =>{
+                
+                console.log("The number is " + this)
+                
+            }}
+            obj2.minefunc2()
+            obj2.minefunc3()
+
+
+            //js is async (js avoid bloxking it runs everything -? call back func help)
+
+            setTimeout(() => {
+                console.log("dhara")
+                
+            }, 1000);
+            console.log("bottom")
+
+
+
+
+    </script>
+</head>
+<body>
+<h1>
+    i am learning js
+</h1>
+
+   
+    
+</body>
+</html>
